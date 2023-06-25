@@ -7544,3 +7544,19 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   list-style-type: disc !important;
 	
 } */
+
+/* Start New Style DEVxHUB S */
+.eventNewRow {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .eventNewRow {
+    flex-direction: column;
+  }
+  .singleCard {
+    margin-top: 30px;
+  }
+}
+/* End New Style DEVxHUB S */
