@@ -7662,4 +7662,13 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     width: 83.333333333333%;
   }
 }
+.font-size {
+  font-size: 40px;
+}
+.large-block {
+  display: block;
+}
+.large-hidden {
+  display: none;
+}
 /* End New Style DEVxHUB S */
