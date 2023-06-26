@@ -1670,12 +1670,13 @@ header .user-basket .cart-num {
       SINGLE PROJECT
 ========================================================*/
 .main-half-layout {
-  background: url(../images/5.webp) center center no-repeat;
+  background-image: url(../images/5.webp);
+  background-repeat: no-repeat;
   width: 50%;
   height: 100%;
   position: absolute;
   top: 0;
-  background-position: center center;
+  background-position: left;
   background-size: cover;
   -webkit-background-size: cover;
 }

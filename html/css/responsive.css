@@ -155,6 +155,7 @@
   }
   .main-half-layout {
     width: 100%;
+    display: none;
   }
   .main-half-layout-container {
     width: 100%;
