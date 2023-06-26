@@ -7583,14 +7583,83 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 .eventNewRow {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
-@media (max-width: 767px) {
+.glimpseWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+.leftColumn {
+  width: 47%;
+}
+.middleColumn {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.middleBottom {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 8px;
+}
+.middleBottomLeft {
+  margin-right: 8px;
+}
+.middleBottomLeft .middleBottomRight {
+  width: 50%;
+  height: 100%;
+}
+.rightColumn {
+  width: 22%;
+}
+@media (max-width: 991px) {
   .eventNewRow {
     flex-direction: column;
+    margin-top: 0px;
   }
   .singleCard {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing article .price-head {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .glimpseWrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftColumn {
+    width: 83.333333333333%;
+  }
+  .middleColumn {
+    width: 83.333333333333%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .middleBottom {
+    flex-direction: column;
+  }
+  .middleBottomLeft {
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .middleBottomLeft .middleBottomRight {
+    width: 100%;
+    height: 100%;
+  }
+  .rightColumn {
+    width: 83.333333333333%;
   }
 }
 /* End New Style DEVxHUB S */
