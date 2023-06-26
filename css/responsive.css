@@ -192,6 +192,15 @@
   }
 }
 @media (max-width: 767px) {
+  .about-ser p{
+    font-size: 14px;
+  }
+  .main-page-section p {
+    font-size: 14px;
+  }
+  .testimonial p {
+    font-size: 14px;
+  }
   .font-size {
     font-size: 46px;
   }
